@@ -4,5 +4,30 @@
 // @import url("");
 
 // https://coolors.co/36827f-db6c79-25283d-fef4d8-392061
+// main palette
+$celadonGreen: #36827f;
+$candyPink: #db6c79;
+$spaceCadet: #25283d;
+$cornsilk: #fef4d8;
+$russianViolet: #fef4d8;
 
-@import "../node_modules/bulma/sass/base/_all.sass";
+$cornsilk-1: #fef9eb;
+$cornsilk__5: #fbd774;
+$cornsilk__7: #facc4c;
+
+// Update Bulma's global variables
+$family-sans-serif: "Nunito", sans-serif;
+// $grey-dark: $brown;
+// $grey-light: $beige-light;
+$primary: $celadonGreen;
+$link: $candyPink;
+$widescreen-enabled: false;
+$fullhd-enabled: false;
+
+// Update some of Bulma's component variables
+$body-background-color: $cornsilk-1;
+$control-border-width: 2px;
+$input-border-color: transparent;
+$input-shadow: none;
+
+@import "../../node_modules/bulma/sass/base/_all.sass";

@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-hello-world",
+  "name": "Salman Khan's portfolio",
   "private": true,
-  "description": "A simplified bare-bones starter for Gatsby",
+  "description": "Web application developer",
   "version": "0.1.0",
-  "license": "0BSD",
+  "license": "",
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
