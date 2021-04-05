@@ -2,7 +2,10 @@ import React from "react";
 
 export const Navbar = () => {
   return (
-    <nav className="navbar" role="navigation" aria-label="main navigation">
+    <nav
+      className="navbar is-primary"
+      role="navigation"
+      aria-label="main navigation">
       <div className="navbar-brand">
         <a className="navbar-item" href="">
           Salman Khan
@@ -11,16 +14,16 @@ export const Navbar = () => {
 
       <div className="navbar-end">
         <div className="navbar-item">
-          <a className="">Personal</a>
+          <a className="is-uppercase">Personal</a>
         </div>
         <div className="navbar-item">
-          <a className="">History</a>
+          <a className="is-uppercase">History</a>
         </div>
         <div className="navbar-item">
-          <a className="">Github</a>
+          <a className="is-uppercase">Github</a>
         </div>
         <div className="navbar-item">
-          <a className="">Contact</a>
+          <a className="is-uppercase">Contact</a>
         </div>
       </div>
     </nav>
