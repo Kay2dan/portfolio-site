@@ -10,6 +10,7 @@ export const SEO = () => {
         <meta name="description" content="Full-Stack Developer" />
         {/* <meta name="image" content={image} />
             <link rel="canonical" href={url} /> */}
+        <script src="https://kwes.io/v2/kwes-script.js" defer />
       </Helmet>
     </>
   );
